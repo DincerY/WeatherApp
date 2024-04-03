@@ -14,7 +14,7 @@ import (
 
 var lat string
 var lon string
-var apiKey = ""
+var apiKey = " "
 var baseUri = "https://api.openweathermap.org/data/2.5/weather"
 
 type Coord struct {
