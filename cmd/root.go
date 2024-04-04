@@ -74,7 +74,7 @@ type WeatherData struct {
 
 var rootCmd = &cobra.Command{
 	Use:   "weather",
-	Short: "uygulamanın kısa bilgisi",
+	Short: "uygulamanın kısa bilgisi.",
 	Long:  `uygulamanın uzun bilgilendirme metnini bu kısma girebilirsiniz.`,
 	Run:   rootRun,
 }
